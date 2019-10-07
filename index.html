@@ -169,7 +169,7 @@
  <a style="color: black" href="tel:+18458182186"> +1(845) 818-2186</a></span> </p> 
 
     </div>
-  <form method="POST" action="https://formspree.io/admin@pradip.epizy.com">
+  <form method="POST" action="https://formspree.io/admin@pradip.epizy.com"  target="_blank" onsubmit="target_popup(this)">
 
     <div class="col-sm-7">
 <div class="row">
@@ -225,4 +225,18 @@
   <br><br>
 
 </footer>
+<script type="text/javascript">
+	function target_popup(form) {
+
+        window.open('',
+
+                    'UniqueWindowName',
+
+                    'width=600,height=600,resizeable,scrollbars');
+
+        form.target = 'UniqueWindowName';
+
+    }
+</script>
 </body>
+</html>
