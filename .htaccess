@@ -1,0 +1,5 @@
+ErrorDocument 400 http://pradip-github.epizy.com/error_page_400.php
+ErrorDocument 401 http://pradip-github.epizy.com/error_page_401.php
+ErrorDocument 403 http://pradip-github.epizy.com/error_page_403.php
+ErrorDocument 404 http://pradip-github.epizy.com/error_page_404.php
+ErrorDocument 503 http://pradip-github.epizy.com/error_page_503.php
